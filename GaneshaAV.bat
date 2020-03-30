@@ -45,7 +45,7 @@ cls
 echo How to put the software on to your USB:
 echo.
 echo 1) Close this software
-echo 2) Copy the file GaneshaAVPro.bat to your USB
+echo 2) Copy the file GaneshaAV.bat to your USB
 echo 3) Eject your USB
 echo 4) Plug it back in
 echo 5) Enjoy!
