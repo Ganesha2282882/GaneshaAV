@@ -1,8 +1,8 @@
 @echo off
 
-title Ganesha AV
+title Ganesha AV ft. Brain.exe
 
-echo Ganesha AV
+echo Ganesha AV ft. Brain.exe
 
 echo Hub
 echo.
@@ -11,13 +11,15 @@ echo.
 echo 1) Backup files
 echo 2) Delete files
 echo 3) Put this software on your USB
-echo 4) Exit
+echo 4) About
+echo 5) Exit
 set /p hubops=
 
 if %hubops% == 1 goto b
 if %hubops% == 2 goto d
 if %hubops% == 3 goto p
-if %hubops% == 4 exit
+if %hubops% == 4 goto a
+if %hubops% == 5 exit
 
 :b
 cls
@@ -49,4 +51,9 @@ echo 2) Copy the file GaneshaAV.bat to your USB
 echo 3) Eject your USB
 echo 4) Plug it back in
 echo 5) Enjoy!
+pause>nul
+
+:a
+echo About
+echo (c) GaneshaAV v20.4
 pause>nul
