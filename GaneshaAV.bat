@@ -54,6 +54,7 @@ echo 5) Enjoy!
 pause>nul
 
 :a
+cls
 echo About
 echo (c) GaneshaAV v20.4
 pause>nul
